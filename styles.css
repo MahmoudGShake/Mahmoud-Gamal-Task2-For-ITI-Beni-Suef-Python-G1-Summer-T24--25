@@ -1,0 +1,79 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Container Styles */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Section Styles */
+.section {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #e0e0e0;
+}
+
+/* Header Styles */
+.section h1, .section h2, .section h3 {
+    margin-top: 0;
+}
+
+/* Paragraph Styles */
+.section p {
+    font-size: 16px;
+}
+
+/* Image Styles */
+.section img {
+    display: block;
+    margin-top: 10px;
+}
+
+/* List Styles */
+.section ul {
+    padding-left: 20px;
+}
+
+.section ul li {
+    margin-bottom: 5px;
+}
+
+/* Button Styles */
+.section button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.section button:hover {
+    background-color: #0056b3;
+}
+
+/* Form Styles */
+.section form {
+    margin-top: 10px;
+}
+
+.section form input {
+    padding: 10px;
+    width: calc(100% - 22px);
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+.section form button {
+    width: 100%;
+    padding: 10px;
+}
